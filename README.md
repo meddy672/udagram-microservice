@@ -1,0 +1,2 @@
+# Overview
+This repository is the refactored version of the udagram monolith. The [udagram monolith](https://github.com/meddy672/udagram-monolith) consist of a static frontend as well as a set of backend services **(Users, Feed)**. The services were refactored into microservices using the [Strangler Application Pattern](https://martinfowler.com/bliki/StranglerFigApplication.html) and launched on the AWS Platform with AWS EKS. Each service contains its own **Dockerfile** which are used by the EKS pods to run the application.
