@@ -1,4 +1,4 @@
-# Overview
+
 # Overview
 The udagram users service is a microservice built with **ExpressJS** and **Typescript** provisioned for an **AWS EKS Cluster**. The microservice is refactored from the monolith version of [Udagram](https://github.com/meddy672/udagram-monolith). The microservice consists of an simple API handles authentication and locating users within the system.
 
